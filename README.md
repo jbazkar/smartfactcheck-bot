@@ -20,6 +20,7 @@ This project is designed for public benefit and as an open-source contribution t
 git clone https://github.com/jbazkar/smartfactcheckbot.git
 cd smartfactcheckbot
 pip install -r requirements.txt
+```
 
 ---
 
@@ -37,14 +38,14 @@ python training/teacher/test_teacher.py
 
 Test Student Model
 python training/student/test_student.py
-
+```
 
 Example:
-
+```
 > Trump on Twitter (Dec 29) – Approval rating, Amazon
 Prediction: REAL
 Probabilities → FAKE: 0.073, REAL: 0.927
-
+```
 ---
 
 🏋️‍♂️ Train the Models
