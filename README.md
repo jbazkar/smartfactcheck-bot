@@ -82,9 +82,13 @@ MIT License.
 ## ⭐ Acknowledgements
 
 Teacher and student models built using:
+
 HuggingFace Transformers
+
 PyTorch
+
 Dataset from:
+
 Kaggle Fake/Real News dataset
 
 ## 🙌 Contributions
