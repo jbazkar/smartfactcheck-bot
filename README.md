@@ -63,6 +63,7 @@ Close to teacher accuracy
 ```
 ---
 ## 📁 Project Structure (Simplified)
+```
 smartfactcheckbot/
 ├─ training/
 │  ├─ teacher/
@@ -73,7 +74,7 @@ smartfactcheckbot/
 ├─ data/
 ├─ requirements.txt
 └─ README.md
-
+```
 ## ⚖️ License
 
 MIT License.
