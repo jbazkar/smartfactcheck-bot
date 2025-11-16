@@ -21,13 +21,17 @@ git clone https://github.com/jbazkar/smartfactcheckbot.git
 cd smartfactcheckbot
 pip install -r requirements.txt
 
+---
+
 📥 Dataset
 
 This project uses the Fake and Real News dataset from Kaggle:
 
 https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
+---
 🧪 Test the Models
+```
 Test Teacher Model
 python training/teacher/test_teacher.py
 
@@ -40,6 +44,8 @@ Example:
 > Trump on Twitter (Dec 29) – Approval rating, Amazon
 Prediction: REAL
 Probabilities → FAKE: 0.073, REAL: 0.927
+
+---
 
 🏋️‍♂️ Train the Models
 Train the Teacher
@@ -54,7 +60,7 @@ The student model becomes:
 Smaller
 
 Faster
-
+---
 Close to teacher accuracy
 
 📁 Project Structure (Simplified)
@@ -68,25 +74,22 @@ smartfactcheckbot/
 ├─ data/
 ├─ requirements.txt
 └─ README.md
-
+---
 ⚖️ License
 
 MIT License.
-
+---
 ⭐ Acknowledgements
 
 Teacher and student models built using:
-
 HuggingFace Transformers
-
 PyTorch
-
 Dataset from:
 
 Kaggle Fake/Real News dataset
-
+---
 🙌 Contributions
 
 Contributions are welcome. Please submit an issue or pull request.
-
+---
 If you find this project useful, please ⭐ star the repository.
