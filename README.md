@@ -62,6 +62,7 @@ The student model becomes:
 Smaller
 
 Faster
+```
 ---
 Close to teacher accuracy
 
