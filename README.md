@@ -73,7 +73,7 @@ smartfactcheckbot/
 ├─ data/
 ├─ requirements.txt
 └─ README.md
----
+
 ## ⚖️ License
 
 MIT License.
