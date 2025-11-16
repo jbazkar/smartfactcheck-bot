@@ -24,14 +24,14 @@ pip install -r requirements.txt
 
 ---
 
-📥 Dataset
+## 📥 Dataset
 
 This project uses the Fake and Real News dataset from Kaggle:
 
 https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
 ---
-🧪 Test the Models
+## 🧪 Test the Models
 ```
 Test Teacher Model
 python training/teacher/test_teacher.py
@@ -48,7 +48,7 @@ Probabilities → FAKE: 0.073, REAL: 0.927
 ```
 ---
 
-🏋️‍♂️ Train the Models
+## 🏋️‍♂️ Train the Models
 ```
 Train the Teacher
 python training/teacher/train_teacher.py
@@ -56,17 +56,13 @@ python training/teacher/train_teacher.py
 Knowledge Distillation (Train Student)
 python training/student/train_student_kd.py
 
-
 The student model becomes:
-
 Smaller
-
 Faster
+Close to teacher accuracy
 ```
 ---
-Close to teacher accuracy
-
-📁 Project Structure (Simplified)
+## 📁 Project Structure (Simplified)
 smartfactcheckbot/
 ├─ training/
 │  ├─ teacher/
@@ -78,21 +74,20 @@ smartfactcheckbot/
 ├─ requirements.txt
 └─ README.md
 ---
-⚖️ License
+## ⚖️ License
 
 MIT License.
----
-⭐ Acknowledgements
+
+## ⭐ Acknowledgements
 
 Teacher and student models built using:
 HuggingFace Transformers
 PyTorch
 Dataset from:
-
 Kaggle Fake/Real News dataset
----
-🙌 Contributions
+
+## 🙌 Contributions
 
 Contributions are welcome. Please submit an issue or pull request.
----
+
 If you find this project useful, please ⭐ star the repository.
