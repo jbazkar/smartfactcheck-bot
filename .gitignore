@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Model files (too large for GitHub)
+*.bin
+*.safetensors
+*.pt
+
+# Dataset
+data/
+*.csv
+
+# Outputs (teacher + student models)
+outputs/teacher-fast-distilbert/
+outputs/student-distilled/
+
+# Jupyter notebooks (optional)
+*.ipynb_checkpoints
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
