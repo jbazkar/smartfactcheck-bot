@@ -49,6 +49,7 @@ Probabilities → FAKE: 0.073, REAL: 0.927
 ---
 
 🏋️‍♂️ Train the Models
+```
 Train the Teacher
 python training/teacher/train_teacher.py
 
