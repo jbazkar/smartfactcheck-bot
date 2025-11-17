@@ -5,7 +5,74 @@ SmartFactCheckBot predicts whether a news headline or short article is **REAL** 
 This project is designed for public benefit and as an open-source contribution to misinformation detection.
 
 ---
+## ⚠️ Research Limitations
+SmartFactCheckBot is an experimental research system designed to analyze linguistic patterns associated with misinformation.
+Like all machine-learning research tools, it operates within several important limitations:
+## 1. Dataset Constraints
+The model is trained on historical misinformation datasets (approx. 2015–2020).
+As a result:
 
+It does not reflect modern writing styles or evolving misinformation tactics.
+Recent or breaking news may be misclassified.
+## 2. No Real-Time Fact Checking
+
+The system does not access live news, APIs, or search engines.
+
+Predictions rely only on:
+
+Linguistic patterns
+Writing tone
+Statistical signals
+
+Thus:
+
+A true story written in a sensational tone might be flagged as FAKE.
+A fake story written in a calm, journalistic tone may be labeled REAL.
+The model inherits the biases and limitations of the dataset
+## 3. Language & Generalization Limits
+
+The model is trained only on English and may not generalize well to:
+
+Other languages
+Cultural writing variations
+Highly technical or scientific articles
+Satire, sarcasm, or ambiguous text
+## 4. Architectural Trade-offs (Distilled Model)
+
+The student model is a smaller, faster version of a larger teacher model.
+This design brings trade-offs:
+
+Loss of nuance
+Reduced contextual understanding
+Increased false positives/negatives
+Limitations with complex reasoning
+## 5. Ethical and Responsible Use
+
+This system is intended for:
+
+Research
+Education
+Public awareness
+Demonstrating misinformation detection techniques
+
+It must not be used for:
+
+Journalism
+Legal decisions
+Election monitoring
+Crisis response
+Safety-critical applications
+## No Continual Learning
+
+The model does not update itself automatically.
+Changes in:
+
+Political narratives
+Social trends
+Misinformation strategies
+News reporting styles
+
+will affect performance over time.
 ## 🚀 Features
 - Fast, distilled **Student model** for real-time predictions  
 - High-accuracy **Teacher model** (DistilBERT fine-tuned on Fake/True News dataset)  
