@@ -1,0 +1,16 @@
+[Unit]
+Description=SmartFactCheckBot Telegram Service
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/smartfactcheckbot
+Environment="TELEGRAM_BOT_TOKEN=<Place holder for token>"
+Environment="PYTHONUNBUFFERED=1"
+Environment="AWS_DEFAULT_REGION=us-east-1"
+ExecStart=/home/ubuntu/smartfactcheckbot/venv/bin/python -u /home/ubuntu/smartfactcheckbot/telegram_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
